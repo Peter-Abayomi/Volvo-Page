@@ -1,0 +1,293 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 110vh;
+    background-image: url('../img/header.png');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.custom-font {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-content h1 {
+    margin-top: 3.5rem;
+    font-size: 7.5rem;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.middle {
+    background-color: #0d0c0c;
+    color: white;
+}
+
+.middle-content {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 6rem;
+    text-align-last: right;
+    padding-bottom: 4rem;
+}
+
+.middle-txt .upper {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 1.7rem;
+    text-align: right;
+}
+
+.middle-txt .lower {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.middle-txt p {
+    font-size: 1.1rem;
+    text-align: right;
+    line-height: 1.7rem;
+}
+
+.overview {
+    background-color: ghostwhite;
+}
+
+.overview-sect {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    align-items: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.overview-content {
+    width: 50%;
+    margin-right: 35px;
+    margin-top: 5px;
+}
+
+.overview-content h3 {
+    font-size: 3.1rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.overview-content h5 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.overview-content p {
+    font-size: 1.15rem;
+    padding-bottom: 15px;
+}
+
+.overview-img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.overview-img .overview-image {
+    width: 650px;
+}
+
+.over-button .button {
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.over-button .button:hover {
+    background-color: #0d0c0c;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+
+.row-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ranking .ranking-images {
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ranking .ranking-img-one {
+    background-image: url('../img/ranking-one.jpeg');
+}
+
+.ranking .ranking-img-two {
+    background-image: url('../img/ranking-two.jpeg');
+}
+
+.ranking .ranking-img-three {
+    background-image: url('../img/ranking-three.jpeg');
+}
+
+.ranking .ranking-img-four {
+    background-image: url('../img/ranking-four.jpeg');
+}
+
+.rankings {
+    background-image: url('../img/ranking.jpeg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.overhead {
+    background-color: #1a1a1a;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: white;
+}
+
+.overhead-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.overhead-svg {
+    height: 70px;
+    padding-bottom: 12px;
+}
+
+.overhead-txt-svg-1 {
+    margin-right: 30px;
+    padding-top: 15px;
+}
+.overhead-text {
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+.overhead-button .bttn {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-bottom: 4rem;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.overhead-button .bttn:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid whitesmoke;
+}
+
+.overhead-txt-svg-2 {
+    margin-left: 25px;
+    padding-top: 25px;
+    text-align: right;
+}
+
+.overhead-image {
+    height: 700px;
+}
+
+
+
+.ranking-content {
+    width: 40%;
+    margin-left: 8rem;
+    padding-top: 7rem;
+}
+.ranking-content .driving {
+    font-size: 2.8rem;
+    padding-bottom: 12px;
+}
+
+.ranking-content .whats {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.ranking-content .sample {
+    font-size: 1.1rem;
+    padding-bottom: 15px;
+}
+
+.rank-button .button {
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.rank-button .button:hover {
+    background-color: #0d0c0c;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+
+footer {
+    background-color: #99ddff;
+}
+
+.address {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.phone-address {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 40px
+}
+
+.dealers {
+    font-size: 30px;
+}
+
+.address-1 {
+    padding-right: 30px;
+}
+.addresses {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.commons {
+    padding-bottom: 10px;
+}
+
+.phone {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
